@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration</title>
+</head>
+<body>
+
+<h2>Event Registration Form</h2>
+
+<form id="form">
+    <input type="text" id="name" placeholder="Full Name" required><br><br>
+    <input type="email" id="email" placeholder="Enter Gmail only" pattern=".+@gmail\.com" required>
+
+    <select id="event">
+        <option value="Tech Fest">Tech Fest</option>
+        <option value="Cultural Event">Cultural Event</option>
+        <option value="Workshop">Workshop</option>
+    </select><br><br>
+
+    <button type="submit">Register</button>
+</form>
+
+<p id="msg"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
